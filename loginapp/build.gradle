@@ -1,0 +1,53 @@
+plugins {
+    id 'org.springframework.boot' version '2.7.3'
+    id 'io.spring.dependency-management' version '1.0.13.RELEASE'
+    id 'java'
+}
+
+group 'com.niallwalters'
+version '1.0-SNAPSHOT'
+sourceCompatibility = '17'
+
+configurations {
+    compileOnly {
+        extendsFrom annotationProcessor
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation 'org.projectlombok:lombok:1.18.22'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+    implementation 'org.springframework.boot:spring-boot-starter-validation'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    testImplementation 'junit:junit:4.13.1'
+    compileOnly 'org.projectlombok:lombok'
+    annotationProcessor 'org.projectlombok:lombok'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-engine'
+    testImplementation 'org.junit.jupiter:junit-jupiter-engine'
+    testImplementation 'org.mockito:mockito-inline:2.13.0'
+    implementation group: 'org.postgresql', name: 'postgresql'
+    implementation group: 'org.modelmapper', name: 'modelmapper', version: '3.1.0'
+    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-data-jpa'
+    implementation group: 'org.springframework.boot', name: 'spring-boot-starter'
+    implementation group: 'org.hibernate', name: 'hibernate-core', ext: 'pom'
+    implementation group: 'com.github.fge', name: 'json-patch', version: '1.9'
+    implementation group: 'org.springframework.security', name: 'spring-security-core'
+    implementation group: 'com.flextrade.jfixture', name: 'jfixture', version: '2.7.2'
+    implementation 'org.springdoc:springdoc-openapi-ui:1.6.11'
+    implementation group: 'org.springframework.security', name: 'spring-security-config', version: '5.7.3'
+    implementation group: 'org.springframework.security', name: 'spring-security-web', version: '5.7.3'
+    runtimeOnly 'org.springdoc:springdoc-openapi-webmvc-core:1.6.11'
+    implementation group: 'io.jsonwebtoken', name: 'jjwt', version: '0.9.1'
+}
+
+test {
+    useJUnitPlatform()
+}

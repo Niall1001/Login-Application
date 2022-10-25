@@ -1,0 +1,7 @@
+/loginapp/target
+/loginapp/.idea/
+/loginapp/build/
+.idea/
+/loginapp/.gradle/
+/frontend/node_modules
+/frontend/public
