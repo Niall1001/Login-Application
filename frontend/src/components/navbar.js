@@ -82,9 +82,9 @@ const Navbar = () => {
   };
 
   const Logout = () => {  
-    navigate(navigation.LOGIN);
     setIsLoggedIn(false);
     TokenService.removeAuth();
+    navigate(navigation.LOGIN);
     toast.success("Successfully logged out")
   }
 
