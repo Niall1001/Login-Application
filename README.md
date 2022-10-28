@@ -15,6 +15,8 @@ It is a Logging in system for users to be able to register themselves to the app
 
 ## How do I run this application?
 
+### Spin up backend
+
 Once downloaded and have directed your unix based terminal to the root folder run:
 ```
 docker-compose up
@@ -24,10 +26,21 @@ This docker script will create a docker image called `sailing-app` of the applic
 Once Complete, the application will be available through: (http://localhost:8090)
 
 To Stop and remove the containers, ctrl + c out of the running docker-image and then run:
-
 ```
 docker-compose down
 docker volume prune
 ```
 
+### Spin up frontend
+
+Direct yourself back to the root of the project folder and issue the following command:
+```
+cd frontend
+```
+Once complete, issue the command:
+```
+npm install
+```
+
+## How do I run this application?
 
