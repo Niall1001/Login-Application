@@ -27,8 +27,9 @@ Once Complete, the backend application will be available through: (http://localh
 
 A list of available API endpoints are listed below:
 
-`#0d1117 POST http://localhost:3000/v1/login`
-`#0d1117 POST http://localhost:3000/app-users/create`
+> POST http://localhost:3000/v1/login
+
+> POST http://localhost:3000/app-users/create
 
 To Stop and remove the containers, ctrl + c out of the running docker-image and then run:
 ```
