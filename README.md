@@ -5,8 +5,9 @@ This is a generic Spring Boot Application with React frontend which creates a bo
 ## Description
 
 It is a Logging in system for users to be able to register themselves to the application and have the ability to login and navigate to authroised endpoint:
-'ADMIN - Admin User
-USER - Generic user type'
+>ADMIN - Admin User
+
+>USER - Generic user type
 
 ##Requirements
 
