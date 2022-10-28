@@ -44,9 +44,12 @@ npm install
 This will download all the dependencies required to run the application successfully. Once completed, please issue the following command:
 ```
 npm start
+```
 
+Producing:
 
-`#RRGGBB`Compiled successfully!
+```
+`#RRGGBB Compiled successfully!'
 
 You can now view sailing-app in the browser.
 
