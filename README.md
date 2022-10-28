@@ -23,7 +23,12 @@ docker-compose up
 ```
 This docker script will create a docker image called `sailing-app` of the application enabling the DB to be spun up instantly along with populating the DB with dummy data. Run the API application locally using Java Spring Boot.
 
-Once Complete, the application will be available through: (http://localhost:8090)
+Once Complete, the backend application will be available through: (http://localhost:3000)
+
+A list of available API endpoints are listed below:
+
+`#0d1117 POST http://localhost:3000/v1/login`
+`#0d1117 POST http://localhost:3000/app-users/create`
 
 To Stop and remove the containers, ctrl + c out of the running docker-image and then run:
 ```
