@@ -54,8 +54,8 @@ npm start
 
 Producing:
 
-`
-Compiled successfully!
+
+> Compiled successfully!
 
 You can now view sailing-app in the browser.
 
@@ -66,7 +66,6 @@ Note that the development build is not optimized.
 To create a production build, use npm run build.
 
 webpack compiled successfully
-`
 
 ## How do I run this application?
 
