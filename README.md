@@ -18,4 +18,6 @@ Once downloaded and have directed your unix based terminal to the root folder ru
 ```
 docker-compose up
 ```
-This docker script will create a docker image called `#0d1117 sailing-app` of the application enabling the DB to be spun up instantly along with populating the DB with dummy data.
+This docker script will create a docker image called `sailing-app` of the application enabling the DB to be spun up instantly along with populating the DB with dummy data. Run the API application locally using Java Spring Boot.
+
+Once Complete, the application will be available through: (http://localhost:8090)
