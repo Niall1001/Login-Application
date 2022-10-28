@@ -41,6 +41,22 @@ Once complete, issue the command:
 ```
 npm install
 ```
+This will download all the dependencies required to run the application successfully. Once completed, please issue the following command:
+```
+npm start
 
+
+`#RRGGBB`Compiled successfully!
+
+You can now view sailing-app in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://192.168.137.235:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled successfully
+```
 ## How do I run this application?
 
