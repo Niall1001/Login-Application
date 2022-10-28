@@ -48,7 +48,6 @@ npm start
 
 Producing:
 
-<!--
 ```
 `#RRGGBB Compiled successfully!`
 
@@ -62,6 +61,6 @@ To create a production build, use npm run build.
 
 webpack compiled successfully
 ```
--->
+
 ## How do I run this application?
 
