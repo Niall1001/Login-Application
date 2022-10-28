@@ -55,7 +55,7 @@ npm start
 Producing:
 
 `
-`Compiled successfully!`
+Compiled successfully!
 
 You can now view sailing-app in the browser.
 
