@@ -73,8 +73,8 @@ webpack compiled successfully
 Go to http://localhost:3000/login in your browser. This will bring up a UI for you to enter an email address and password. By default, you must register your account details first via http://localhost:3000/register.
 
 Below, is example information to successfully register a user:
+
 ```
-{
 {
     "name": "Niall Walters",
     "emailAddress": "nialladmin@gmail.com",
@@ -82,5 +82,6 @@ Below, is example information to successfully register a user:
     "password": "***********",
     "user_type": "ADMIN"
 }
-}
 ```
+
+Once logged in, a valid JWT will be produced allowing you to access authenticated endpoints and for you to build out your application as desired.
