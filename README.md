@@ -54,8 +54,8 @@ npm start
 
 Producing:
 
-
-> Compiled successfully!
+```
+Compiled successfully!
 
 You can now view sailing-app in the browser.
 
@@ -66,6 +66,21 @@ Note that the development build is not optimized.
 To create a production build, use npm run build.
 
 webpack compiled successfully
+```
 
-## How do I run this application?
+## Login details
 
+Go to http://localhost:3000/login in your browser. This will bring up a UI for you to enter an email address and password. By default, you must register your account details first via http://localhost:3000/register.
+
+Below, is example information to successfully register a user:
+```
+{
+{
+    "name": "Niall Walters",
+    "emailAddress": "nialladmin@gmail.com",
+    "dob": 25/10/1998,
+    "password": "***********",
+    "user_type": "ADMIN"
+}
+}
+```
