@@ -9,7 +9,7 @@ It is a Logging in system for users to be able to register themselves to the app
 
 >USER - Generic user type
 
-##Requirements
+## Requirements
 
 >Java 17, Docker, React
 
@@ -21,4 +21,4 @@ docker-compose up
 ```
 This docker script will create a docker image called `sailing-app` of the application enabling the DB to be spun up instantly along with populating the DB with dummy data. Run the API application locally using Java Spring Boot.
 
-Once Complete, the application will be available through: (http://localhost:8090)
+Once Complete, the application will be available through: [http://localhost:8090]
